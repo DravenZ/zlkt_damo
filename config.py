@@ -8,7 +8,7 @@ SECRET_KEY = os.urandom(24)
 
 # 数据库的配置
 DIALECT = 'mysql'
-DRIVER = 'mysqldb'
+DRIVER = 'pymysql'
 USERNAME = 'root'
 PASSWORD = 'root123'
 HOST = '127.0.0.1'
